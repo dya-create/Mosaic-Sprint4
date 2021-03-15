@@ -81,8 +81,8 @@ public class TilePanel extends JPanel {
    }
 
     // getting constratsing Color
-    private static int ContrastingColor(int colorIn){
-        return((colorIn +128)%256);
+    private static int ContrastingColor(int color){
+        return((color +128)%256);
 
     }
     
