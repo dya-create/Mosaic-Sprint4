@@ -8,7 +8,10 @@ public class Mosaic{
 
         TileFrame frame = new TileFrame();
         frame.setVisible(true); 
-
+        
+        TilePanel panel = new TilePanel();
+        frame.add(panel);
+        
         System.out.print("Start Paint...");
         
 }
